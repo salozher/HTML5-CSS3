@@ -1,0 +1,159 @@
+#canvas {
+        		display: block;
+        		margin: 0 auto;
+        		outline: 0px solid #222;
+        	}
+
+            
+            * {
+    box-sizing: border-box;
+    }
+
+#a {
+  position:fixed;
+  left: 0%;
+  top: 0%;
+  margin-left: 55px;
+  margin-top: 40px;
+} 
+
+#result {
+position:fixed;
+margin-left: -20px;
+  margin-top: 60px;
+ }   
+.chasiki {
+
+ 
+
+}
+body {
+background-image:url('pictures/kgb-background.jpg');
+ }
+html {
+padding:0px;
+border:none;
+
+ }
+.headers {
+    background-color: lightblue;
+    color: white;
+    padding: 0px;
+    width:100%;
+      
+    }
+.footer {
+    background-color: lightblue;
+    color: white;
+    padding: 0px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 5%;
+    
+ }
+.maingroup {
+display:inline-block;
+ }   
+.sidebar {
+    background-color: lightblue;
+    color: yellow;
+    padding: 0px;
+    width: 20%;
+   display: block;
+    padding: 0px;
+ }
+.mainpad {
+display: block;
+background-color: lightblue;
+    color: yellow;
+width:70%;
+float:inherit;
+clear:none;
+
+ } 
+.aside {
+display: block;
+    background-color: lightblue;
+    color: yellow;
+    width: 10%;
+   
+ }     
+
+.clearfix::after {
+    content: "";
+    clear:both;
+    display:inline-block;
+}
+.menu {
+  background-color: pink;  
+    
+}
+
+.menu ul {
+    list-style-type:square;
+    margin: 0;
+    padding: 2;
+}
+.menu li {
+    display:inline-table;
+    padding: 3px;
+    margin-bottom: 0px;
+    background-color: aquamarine;
+    color: white;
+}
+.menu li:hover {
+    background-color: khaki;
+}
+
+.span12 {
+
+text-align:center;
+ }
+ 
+.span9 {
+text-align:left;
+ }
+ 
+.span3 {
+text-align:justify;
+ }
+ 
+.span0 {
+text-align: left;
+ }
+.headimg {
+height:60px;
+ } 
+ 
+ main {
+ 
+height:auto;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+main > article {
+	background: #afccdb;
+	-webkit-flex: 3 1 70%;
+	flex: 3 1 70%;
+	-webkit-order: 2;
+	order: 2;
+}
+main > nav {
+	background: #fc0;
+	-webkit-flex: 1 6 20%;
+	flex: 1 6 20%;
+	-webkit-order: 1;
+	order: 1;
+}
+main > aside {
+	background: #fc0;
+	-webkit-flex: 1 6 20%;
+	flex: 1 6 20%;
+	-webkit-order: 3;
+	order: 3;
+}
+
+
